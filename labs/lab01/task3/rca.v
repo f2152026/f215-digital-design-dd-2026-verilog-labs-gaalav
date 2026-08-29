@@ -21,9 +21,10 @@ module rca(
   wire c1, c2, c3;
 
   // TODO: your four FA_Gate instances go here.
-FA_Gate FA0 (
+  FA_Gate FA0 (
 
-    .a(a[0]),
+    .a(a[0]), 
+    
 
     .b(b[0]),
 
